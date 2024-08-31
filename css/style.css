@@ -10,8 +10,17 @@
     position: fixed;
     display: none;
     right: 45px;
+    bottom: 100px;
+    z-index: 99;
+}
+.back-to-top-hire-me {
+    position: fixed;
+    right: 45px;
     bottom: 45px;
     z-index: 99;
+}
+.btn-lg-square-hire-me{
+    width: 125px;
 }
 
 .my-6 {
