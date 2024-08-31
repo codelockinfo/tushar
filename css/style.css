@@ -428,3 +428,23 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
+
+/* Hide the desktop image on mobile devices */
+.header-mobile-image {
+    display: block;
+}
+
+.header-desktop-image {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    /* Hide the mobile image and show the desktop image on screens wider than 768px */
+    .header-mobile-image {
+        display: none;
+    }
+
+    .header-desktop-image {
+        display: block;
+    }
+}
