@@ -457,3 +457,6 @@
         display: block;
     }
 }
+.errormsg{
+    color: red;
+}
