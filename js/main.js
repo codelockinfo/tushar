@@ -142,6 +142,19 @@
       .removeAttr("disabled");
   }
 
+  function showMessage(msg, type) {
+    var alertTitle =
+      type === "success" ? "Success" : type === "fail" ? "Failure" : "Error";
+    Swal.fire({
+      title: alertTitle,
+      text: msg,
+      icon: type === "fail" ? "error" : type,
+      timer: 5000,
+      timerProgressBar: true,
+      showConfirmButton: false,
+    });
+  }
+
   $(".contactForm").click(function (e) {
     event.preventDefault();
     console.log("contactForm");
