@@ -460,3 +460,44 @@
 .errormsg{
     color: red;
 }
+/* start css for cookie banner */
+.freeprivacypolicy-com---nb-interstitial-overlay .freeprivacypolicy-com---nb-interstitial{
+    bottom: 3vh;
+    top: unset;
+    height: unset;
+    right: 3vw;
+    left: 3vw;
+}
+.freeprivacypolicy-com---nb-interstitial-overlay .freeprivacypolicy-com---nb .cc-nb-main-container{
+    padding: 1.25rem;
+}
+.freeprivacypolicy-com---nb-interstitial-overlay .freeprivacypolicy-com---palette-dark .cc-nb-changep{
+    display: none;
+}
+.freeprivacypolicy-com---nb-interstitial-overlay .freeprivacypolicy-com---reset p{
+    margin-bottom: .5rem;
+}
+.freeprivacypolicy-com---nb-interstitial-overlay .freeprivacypolicy-com---palette-dark .cc-nb-title{
+    margin-bottom: 0;
+}
+.freeprivacypolicy-com---nb-interstitial-overlay .cc-nb-main-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.freeprivacypolicy-com---nb-interstitial-overlay .cc-nb-title-container,.freeprivacypolicy-com---nb-interstitial-overlay .cc-nb-text-container{
+    width:80%;
+}
+.freeprivacypolicy-com---nb-interstitial-overlay .cc-nb-buttons-container{
+    width: 20%;
+    text-align: end;
+}
+
+@media screen and (max-width: 960px) {
+    .freeprivacypolicy-com---nb-interstitial-overlay .cc-nb-title-container,
+    .freeprivacypolicy-com---nb-interstitial-overlay .cc-nb-text-container,
+    .freeprivacypolicy-com---nb-interstitial-overlay .cc-nb-buttons-container{
+        width: 100%;
+        text-align: start;
+    }
+}
+/* end css for cookie banner */
