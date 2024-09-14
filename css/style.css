@@ -491,7 +491,28 @@
     width: 20%;
     text-align: end;
 }
-
+.cc-nb-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 1000;
+}
+.cc-nb-close:hover {
+    color: #ff0000; /* Change color on hover */
+}
+.freeprivacypolicy-com---nb-interstitial-overlay .freeprivacypolicy-com---reset button.cc-nb-close{
+    padding : 0rem .5rem;
+}
+body .freeprivacypolicy-com---nb-interstitial-overlay{
+    height: unset !important;
+    width: unset !important;
+     background: unset !important;
+}
 @media screen and (max-width: 960px) {
     .freeprivacypolicy-com---nb-interstitial-overlay .cc-nb-title-container,
     .freeprivacypolicy-com---nb-interstitial-overlay .cc-nb-text-container,

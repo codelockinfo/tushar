@@ -740,3 +740,27 @@
 </body>
 
 </html>
+<script>
+    
+document.addEventListener("DOMContentLoaded", function () {
+  // Create the close button
+  var closeButton = document.createElement("button");
+  closeButton.innerHTML = "×";
+  closeButton.className = "cc-nb-close";
+  closeButton.setAttribute("aria-label", "Close");
+
+  // Append the close button to the container
+  var modalContainer = document.querySelector(".cc-nb-main-container");
+  modalContainer.appendChild(closeButton);
+
+  // Close the modal when the close button is clicked
+  closeButton.addEventListener("click", function () {
+    var declineButton = document.querySelector(".cc-nb-reject");
+        if (declineButton) {
+            declineButton.click(); // Trigger click on the Decline button
+        }
+    // document.getElementById("freeprivacypolicy-com---nb").style.display =
+    //   "none";
+  });
+});
+</script>
